@@ -1,0 +1,44 @@
+.al-wrapper {
+  height: 350px;
+  width: 400px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.al-wrapper-header {
+  height: 30px;
+  width: 400px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.al-content {
+  height: 370px;
+  width: 400px;
+}
+.al-list-item {
+  height: 60px;
+  width: 400px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.al-list-item-left {
+  width: 150px;
+}
+.al-list-item-left > h5 {
+  margin: 0px 05px;
+  justify-self: left;
+}
+.al-list-item-left > p {
+  margin: 5px 05px;
+  font-size: 12px;
+  justify-self: left;
+}
+.al-list-item > audio {
+  justify-self: center;
+  height: 35px;
+  width: 240px;
+  align-self: center;
+}
